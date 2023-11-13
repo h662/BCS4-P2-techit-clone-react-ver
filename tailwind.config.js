@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "techit-gray": {
+          100: "#737373",
+          200: "#222222",
+        },
+      },
+    },
   },
   plugins: [],
 };

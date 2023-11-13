@@ -1,10 +1,11 @@
+import Header from "./components/Header";
 import TopBanner from "./components/TopBanner";
 
 const App = () => {
   return (
-    <div className="font-pretendard">
+    <div className="font-pretendard text-techit-gray-200">
       <TopBanner />
-      <header className="bg-red-100 h-16">Header</header>
+      <Header />
       <div className="bg-blue-100 h-[400px]">Banner</div>
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">KDT</div>
