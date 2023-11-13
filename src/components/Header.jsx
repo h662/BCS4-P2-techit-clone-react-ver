@@ -3,7 +3,10 @@ const Header = () => {
     <header className="max-w-screen-xl mx-auto h-16 flex justify-between items-center sticky top-0">
       <div className="flex items-center">
         <button className="w-36 h-16 p-6">
-          <img src="https://techit.education/img/techit_logo.svg" />
+          <img
+            src="https://techit.education/img/techit_logo.svg"
+            alt="TechIT"
+          />
         </button>
         <ul className="hidden lg:flex">
           <li className="header-menu">테킷 스쿨</li>
