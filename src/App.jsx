@@ -1,3 +1,4 @@
+import AlarmBanner from "./components/AlarmBanner";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import KdtSection from "./components/KdtSection";
@@ -12,8 +13,8 @@ const App = () => {
       <Banner />
       <KdtSection />
       <ScheduleSection />
-      <section className="bg-gray-100 h-[206px]"></section>
-      {/* <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
+      <AlarmBanner />
+      <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">TechIT Onboarding Track</div>
         <div className=" bg-purple-100 grid grid-cols-3 gap-6 justify-items-center">
           <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
@@ -22,7 +23,7 @@ const App = () => {
           <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
           <div className="bg-yellow-100 w-[397px] h-[316px]">Card</div>
         </div>
-      </section> */}
+      </section>
       {/* <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
         <div className="bg-red-100 h-[64.5px]">Education</div>
         <div className=" bg-purple-100 grid grid-cols-2 gap-6 justify-items-center">

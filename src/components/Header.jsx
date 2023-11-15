@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="sticky top-0 bg-white z-10">
+    <header className="sticky top-0 bg-white z-10 border-b">
       <div className="max-w-screen-xl mx-auto h-16 flex justify-between items-center ">
         <div className="flex items-center">
           <button className="w-36 h-16 p-6">
