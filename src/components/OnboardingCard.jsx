@@ -1,4 +1,4 @@
-const OnboardingCard = ({ image, title, ing, desc, discountPrice, price }) => {
+const OnboardingCard = ({ image, title, desc, discountPrice, price }) => {
   return (
     <div className="w-[397px] h-[316px]">
       <div className="overflow-hidden rounded-lg">

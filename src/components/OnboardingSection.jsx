@@ -43,7 +43,7 @@ const OnboardingSection = () => {
   return (
     <section className="mt-20 max-w-screen-xl mx-auto px-6">
       <TitleBar title="테킷 온보딩 트랙" desc="K-Digital 기초역량훈련 클래스" />
-      <div className=" mt-10 grid grid-cols-3 gap-6 justify-items-center">
+      <div className=" mt-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 justify-items-center">
         {onboardingCardData.map((v, i) => (
           <OnboardingCard
             key={i}
