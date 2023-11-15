@@ -15,6 +15,7 @@ const App = () => {
       <Header />
       <Banner />
       <KdtSection />
+      <ScheduleSection />
       <AlarmBanner />
       <OnboardingSection />
       <EducationSection />
