@@ -1,6 +1,6 @@
 const AlarmBanner = () => {
   return (
-    <section className="bg-[#F0F4F9] h-[206px] relative -z-20">
+    <section className="bg-[#F0F4F9] h-[206px] relative -z-20 mt-40">
       <div className="max-w-screen-xl mx-auto px-6 flex flex-col justify-center h-full">
         <h3 className="text-[#072c56] font-semibold mb-1">
           테킷 스쿨 사전알림
