@@ -1,6 +1,7 @@
 import AlarmBanner from "./components/AlarmBanner";
 import Banner from "./components/Banner";
 import EducationSection from "./components/EducationSection";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import KdtSection from "./components/KdtSection";
 import OnboardingSection from "./components/OnboardingSection";
@@ -18,9 +19,7 @@ const App = () => {
       <AlarmBanner />
       <OnboardingSection />
       <EducationSection />
-      <footer className="mt-40 max-w-screen-xl mx-auto bg-gray-100 h-[418px]">
-        Footer
-      </footer>
+      <Footer />
     </div>
   );
 };
