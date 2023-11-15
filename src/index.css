@@ -82,4 +82,16 @@
   .header-menu {
     @apply px-6 font-semibold;
   }
+
+  .kdt-ing {
+    @apply text-[#1d4ed8] text-sm font-semibold border border-[#1d4ed8] py-1 px-2 rounded-[4px];
+  }
+
+  .kdt-alarm {
+    @apply text-[#059669] text-sm font-semibold border border-[#059669] py-1 px-2 rounded-[4px];
+  }
+
+  .kdt-fin {
+    @apply text-[#3f3f46] text-sm font-semibold border border-[#3f3f46] py-1 px-2 rounded-[4px];
+  }
 }

@@ -59,14 +59,15 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="bg-blue-100 relative">
+    <div className="relative">
       <ul>
         <Slider
           ref={sliderRef}
           arrows={false}
           autoplay={true}
-          autoplaySpeed={5000}
+          autoplaySpeed={3000}
           speed={500}
+          fade={true}
         >
           {bannerData.map((v, i) => (
             <li key={i} className="h-[400px] relative">
